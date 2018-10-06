@@ -33,7 +33,7 @@ class Dragon(Animal):
         self.health+=10
         return self
 
-    def dispaly_health(self):
+    def display_health(self):
         super().display_health()
         print("I am a Dragon")
 
